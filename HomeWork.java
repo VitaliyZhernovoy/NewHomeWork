@@ -1,9 +1,7 @@
 package modul1.home.work;
 import java.util.*;
 
-/**
- * Created by Оля on 29.04.2017.
- */
+
 public class HomeWork {
     public static void main(String[] args) {
         //Создать консольное приложение, которое запрашивает имя пользователя.
@@ -16,6 +14,11 @@ public class HomeWork {
         String input_names = in.next();
 
         System.out.println(name + input_names + ".");
+
+        //Создать консольное приложение, которое просит пользователя ввести из консоли 5 чисел
+        //Все числа должны быть записаны в массив целых чисел.
+        //После этого, массив должен быть отсортирован по возрастанию и выведен консоль.
+        //Сначала начальная версия, далее - отсортированная.
 
 
         Scanner it = new Scanner(System.in);
